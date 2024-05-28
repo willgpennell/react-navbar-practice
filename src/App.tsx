@@ -5,7 +5,7 @@ import { Home, About, Contact, Services } from "./components/pages";
 
 function App() {
   return (
-    <>
+    <div className="app">
       <Navbar />
       <Routes>
         <Route path="/about" element={<About />} />
@@ -13,7 +13,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/contacts" element={<Contact />} />
       </Routes>
-    </>
+    </div>
   );
 }
 
