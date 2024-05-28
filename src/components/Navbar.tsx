@@ -4,6 +4,7 @@ export default function Navbar() {
   return (
     <nav>
       <ul>
+        <Link to={"/"}>Home</Link>
         <li>
           <Link to={"/About"}>About</Link>
         </li>
