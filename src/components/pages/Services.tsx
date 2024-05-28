@@ -1,4 +1,4 @@
-export default function Services() {
+export function Services() {
   return (
     <div>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
